@@ -1239,6 +1239,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #text-raight{
- text-align:left;
+ text-align:center;
 }
   
+/*.carslist{*/
+/*  text-shasdadow: 10 10 10 green;*/
+/*}*/
