@@ -4,9 +4,11 @@
   Author: BootstrapMade.com
   License: https://bootstrapmade.com/license/
 */
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   background: #fff;
   color: #666666;
@@ -19,7 +21,9 @@ a {
   transition: 0.5s;
 }
 
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   color: #1dc9ce;
   outline: none;
   text-decoration: none;
@@ -30,7 +34,12 @@ p {
   margin: 0 0 30px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -38,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Back to top button */
+
 .back-to-top {
   position: fixed;
   display: none;
@@ -65,6 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
 #header {
   padding: 30px 0;
   height: 120px;
@@ -78,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header #logo {
   float: left;
-  
+
 }
 
 #header #logo h1 {
@@ -93,7 +104,8 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-#header #logo h1 a, #header #logo h1 a:hover {
+#header #logo h1 a,
+#header #logo h1 a:hover {
   color: #fff;
 }
 
@@ -123,6 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
+
 #intro {
   width: 100%;
   height: 100vh;
@@ -244,7 +257,8 @@ h1, h2, h3, h4, h5, h6 {
     position: static;
     padding-top: 30px;
   }
-  #intro .product-screens .product-screen-2, #intro .product-screens .product-screen-3 {
+  #intro .product-screens .product-screen-2,
+  #intro .product-screens .product-screen-3 {
     display: none;
   }
 }
@@ -252,8 +266,11 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
+
 /* Nav Menu Essentials */
-.nav-menu, .nav-menu * {
+
+.nav-menu,
+.nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -272,12 +289,12 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
 }
 
-.nav-menu > li {
+.nav-menu>li {
   float: left;
 }
 
-.nav-menu li:hover > ul,
-.nav-menu li.sfHover > ul {
+.nav-menu li:hover>ul,
+.nav-menu li.sfHover>ul {
   display: block;
 }
 
@@ -291,6 +308,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Nav Menu Arrows */
+
 .sf-arrows .sf-with-ul {
   padding-right: 30px;
 }
@@ -309,6 +327,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Nav Meu Container */
+
 #nav-menu-container {
   float: right;
   margin: 0;
@@ -321,6 +340,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Nav Meu Styling */
+
 .nav-menu a {
   padding: 0 8px 10px 8px;
   text-decoration: none;
@@ -332,7 +352,7 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.nav-menu > li {
+.nav-menu>li {
   margin-left: 10px;
 }
 
@@ -356,7 +376,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: none;
 }
 
-.nav-menu ul li:hover > a {
+.nav-menu ul li:hover>a {
   color: #1dc8cd;
 }
 
@@ -365,6 +385,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Mobile Nav Toggle */
+
 #mobile-nav-toggle {
   position: fixed;
   right: 0;
@@ -391,6 +412,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Mobile Nav Styling */
+
 #mobile-nav {
   position: fixed;
   top: 0;
@@ -463,6 +485,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Mobile Nav body classes */
+
 body.mobile-nav-active {
   overflow: hidden;
 }
@@ -478,9 +501,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
+
 /* Sections Header
 --------------------------------*/
-.section-header .section-title{
+
+.section-header .section-title {
   font-size: 32px;
   color: #111;
   text-align: center;
@@ -489,7 +514,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header .section-description {
   text-align: center;
-  padding:0 60px 40px;
+  padding: 0 60px 40px;
   color: #777;
   font-style: italic;
 }
@@ -506,14 +531,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Section with background
 --------------------------------*/
+
 .section-bg {
   background: #eff5f5;
 }
-#font-big{
+
+#font-big {
   font-size: 32px;
 }
+
 /* About Us Section
 --------------------------------*/
+
 #about {
   padding: 60px 0;
   overflow: hidden;
@@ -578,6 +607,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Product Featuress Section
 --------------------------------*/
+
 #features {
   background: #fff;
   padding: 60px 0 0 0;
@@ -587,7 +617,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #features .features-img {
   text-align: center;
   padding-top: 20px;
-  
+
 }
 
 @media (min-width: 769px) {
@@ -599,8 +629,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #features .features-img img {
   max-width: 100%;
-  padding-top:5rem;
-   margin:0 auto;
+  padding-top: 5rem;
+  margin: 0 auto;
 }
 
 #features .box {
@@ -644,11 +674,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #features .section-description {
   padding-bottom: 10px;
- 
+
 }
 
 /* Product Advanced Featuress Section
 --------------------------------*/
+
 #advanced-features {
   overflow: hidden;
 }
@@ -707,13 +738,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 768px) {
-  #advanced-features .advanced-feature-img-right, #advanced-features .advanced-feature-img-left {
+  #advanced-features .advanced-feature-img-right,
+  #advanced-features .advanced-feature-img-left {
     max-width: 50%;
   }
 }
 
 @media (max-width: 767px) {
-  #advanced-features .advanced-feature-img-right, #advanced-features .advanced-feature-img-left {
+  #advanced-features .advanced-feature-img-right,
+  #advanced-features .advanced-feature-img-left {
     max-width: 100%;
     float: none;
     padding: 0 0 30px 0;
@@ -722,6 +755,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Call To Action Section
 --------------------------------*/
+
 #call-to-action {
   overflow: hidden;
   background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
@@ -768,6 +802,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* More Features Section
 --------------------------------*/
+
 #more-features {
   padding: 60px 0 60px 0;
   overflow: hidden;
@@ -827,7 +862,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: center;
     padding-bottom: 15px;
   }
-  #more-features h4, #more-features p {
+  #more-features h4,
+  #more-features p {
     margin-left: 0;
     text-align: center;
   }
@@ -835,6 +871,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Clients Section
 --------------------------------*/
+
 #clients {
   padding: 30px 0;
   background: #fff;
@@ -842,14 +879,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #clients img {
-   display: flex;
-    margin: 0 auto;
+  display: flex;
+  margin: 0 auto;
   max-width: 100%;
   opacity: 0.5;
   transition: 0.3s;
   padding: 15px 0;
- 
- 
+
+
 }
 
 #clients img:hover {
@@ -858,6 +895,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Pricing Section
 --------------------------------*/
+
 #pricing {
   padding: 60px 0 60px 0;
   overflow: hidden;
@@ -933,6 +971,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Frequently Asked Questions Section
 --------------------------------*/
+
 #faq {
   padding: 60px 0;
   overflow: hidden;
@@ -992,6 +1031,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Our Team Section
 --------------------------------*/
+
 #team {
   padding: 60px 0;
   overflow: hidden;
@@ -1005,7 +1045,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member .pic {
   margin-bottom: 15px;
   overflow: hidden;
-  height: 260px;
+  height: 210px;
 }
 
 #team .member .pic img {
@@ -1043,6 +1083,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Gallery Section
 --------------------------------*/
+
 #gallery {
   background: #fff;
   padding: 60px 0 0 0;
@@ -1092,6 +1133,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Contact Section
 --------------------------------*/
+
 #contact {
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 60px 0;
@@ -1179,7 +1221,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
 }
 
-#contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
+#contact .form #sendmessage.show,
+#contact .form #errormessage.show,
+#contact .form .show {
   display: block;
 }
 
@@ -1191,7 +1235,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
 }
 
-#contact .form input, #contact .form textarea {
+#contact .form input,
+#contact .form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -1212,6 +1257,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
 #footer {
   background: #fff;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
@@ -1238,10 +1284,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #1dc8cd;
 }
 
-#text-raight{
- text-align:center;
+#text-raight {
+  text-align: center;
 }
-  
+
 /*.carslist{*/
+
 /*  text-shasdadow: 10 10 10 green;*/
+
 /*}*/
+
+.btn-green-my {
+  
+  
+  
+    background: linear-gradient(45deg, #1de099, #1dc8cd) !important;
+    border: 0;
+    border-radius: 20px!important;
+
+}
