@@ -1303,3 +1303,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-radius: 20px!important;
 
 }
+
+.sold{
+  font-size: 2em !important;
+  color:red !important;
+  
+}
